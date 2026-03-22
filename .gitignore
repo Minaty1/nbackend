@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# SQLite DBs (do not commit local DBs for MVP)
+server/db/jarvis.db
+server/jarvis.db
+server/db/*.db
+
+# Virtual environments
+venv/
+env/
+
+# PyTest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Expo/Frontend caches (if you later add frontend in same repo)
+app/node_modules/
+.expo/
+.expo-shared/
+.expo/
+
+# Build artifacts
+dist/
+build/
+
+# macOS junk
+.DS_Store
