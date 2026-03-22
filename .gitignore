@@ -29,3 +29,5 @@ build/
 
 # macOS junk
 .DS_Store
+#.env files (local development, do not commit secrets)
+.env
